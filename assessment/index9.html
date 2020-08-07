@@ -1,0 +1,100 @@
+<html>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <style>
+        .rowwidth{
+            column-width: 10cm;
+        }
+        table.center{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+    <body>
+        <form>
+        <table class="center"style="background-color:LightGray;">
+            <tr class="rowwidth">
+                <td class="rowwidth">Full Name</td>
+                <td>
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" id=""name=""  value="Full Name" required>
+                </td>
+            </tr>
+            <tr class="rowwidth">
+                <td class="rowwidth">Address Line 1</td>
+                <td>
+                    <i class='fas fa-address-book'></i>
+                    <input type="text" id=""name=""value="Address Line 1"required>
+                </td>
+            </tr>
+            <tr class="rowwidth">
+                <td class="rowwidth">Address Line 2</td>
+                <td>
+                    <i class='fas fa-address-book'></i>
+                    <input type="text" id=""name=""value="Address Line 2"required>
+                </td>
+            </tr>
+            <tr class="rowwidth">
+                <td class="rowwidth">City</td>
+                <td>
+                    <i class='far fa-building'></i>
+                    <input type="text" id=""name=""value="City"required>
+                </td>
+            </tr>
+            <tr class="rowwidth">
+                <td class="rowwidth">State/province/region</td>
+                <td>
+                    <i class='fas fa-map-marker-alt'></i>
+                    <input type="text" id=""name=""value="state/province/region"required>
+                </td>
+            </tr>
+            <tr class="rowwidth">
+                <td class="rowwidth">Postal Code/ZIP</td>
+                <td>
+                    <i class='far fa-envelope-open'></i>
+                    <input type="text" id=""name=""value="Postal Code/ZIP"required>
+                </td>
+            </tr>
+            <tr class="rowwidth">
+                <td class="rowwidth">Country</td>
+                <td>
+                    <i class='far fa-map'></i>
+                    <select name="Country"required>
+                        <option value="Country">Country</option>
+                        <option value="India">India</option>
+                        <option value="Srilanka">Srilanka</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                    </select>
+                </td>
+            </tr>
+            <tr class="rowwidth">
+                <td class="rowwidth">Email</td>
+                <td>
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" id=""name=""value="Email"required>
+                </td>
+            </tr>
+            <tr class="rowwidth">
+                <td class="rowwidth">Phone Number</td>
+                <td>
+                    <i class="fa fa-user icon"></i>
+                    <input type="text" id=""name=""value="Phone Number"required>
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td >
+                    <button onclick="myFunction()">SUBMIT</button>
+
+                    <script>
+                        function myFunction() {
+                        alert("THANK YOU");
+                        }
+                    </script>
+
+                </td>
+            </tr>
+           
+        </table>
+    </form> 
+    </body>
+</html>
